@@ -5,9 +5,17 @@
     margin: 0;
 }
 
+body#body-1 {
+    background-image: url(img/library.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
 .div-nav {
-    background-color: rgb(2, 2, 172);
+    background-color: rgb(255, 255, 255, 0.8); /* rgb(2, 2, 172) */
     height: 60px;
+    border-bottom: 2px solid black;
 }
 
 .div-nav a {
@@ -19,7 +27,7 @@
     height: 60px;
     line-height: 60px;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 
@@ -46,15 +54,73 @@
 
 .nav-items a {
     margin: 0 20px;
-    color: white;
+    color: black;
     font-size: 20px;
     padding: 10px;
     transition: 0.4s ease;
     border-radius: 10px;
-    font-weight: bolder;
+   /*  font-weight: bolder; */
 }
 
 .nav-items a:hover {
-    background-color: white;
-    color: rgb(2, 2, 172);
+    background-color: black;
+    color: white;
+}
+
+
+
+/* ___________________________________________________ REGISTER _____________________________________________________ */
+
+body#body-2 {
+    background-image: url(img/book-light.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* form-container */
+
+.form-container {
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+
+    margin-top: 100px;
+    
+}
+
+.form {
+    max-width: 800px;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form h2 {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form div {
+    margin: 30px 30px 10px 30px;
+    display: block;
+    max-width: 500px;
+}
+
+.form input {
+    width: 350px;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.submit-div {
+    text-align: center;
+    height: auto;
+}
+
+.submit-div input {
+    height: 40px;
 }
