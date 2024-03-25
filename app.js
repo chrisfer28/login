@@ -28,7 +28,7 @@ app.listen(port, () => {
 
 //Connect to MongoDB
 
-mongoose.connect(`mongodb+srv://Chrifer:<password>@cluster0.9ctoone.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`, {}).then(() => {
+mongoose.connect(`mongodb+srv://Chrifer:8c8a4968-mongodb@cluster0.9ctoone.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`, {}).then(() => {
     console.log(`Connected to MongoDB`);
 }).catch((error) => {
     console.log(`MongoDB connection error: `, error)
