@@ -1,20 +1,20 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: "Poppins", sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body#body-1 {
-    background-image: url(img/library.jpg);
+    background-image: url(img/abstract_book_reflex.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
 }
 
 .div-nav {
-    background-color: rgb(255, 255, 255, 0.8); /* rgb(2, 2, 172) */
-    height: 60px;
+    background-color: rgba(248, 7, 248, 0.7); /* rgb(2, 2, 172) */
     border-bottom: 2px solid black;
 }
 
@@ -54,7 +54,7 @@ body#body-1 {
 
 .nav-items a {
     margin: 0 20px;
-    color: black;
+    color: white; /* black */
     font-size: 20px;
     padding: 10px;
     transition: 0.4s ease;
@@ -67,12 +67,32 @@ body#body-1 {
     color: white;
 }
 
+/* Contenido home */
+
+#section1 {
+    top: 20px;
+    margin: 5% 5%;
+    color: white;
+
+    padding: 2%;
+    border: 3px solid white;
+}
+
+#section2 {
+    top: 20px;
+    margin: 5% 5%;
+    color: white;
+
+    padding: 2%;
+    border: 3px solid white;
+}
+
 
 
 /* ___________________________________________________ REGISTER _____________________________________________________ */
 
 body#body-2 {
-    background-image: url(img/book-light.jpg);
+    background-image: url(img/abstract_book_reflex.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -95,6 +115,14 @@ body#body-2 {
     max-width: 800px;
     background-color: rgb(255, 255, 255, 0.8);
     border-radius: 10px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
 }
 
 .form h2 {
@@ -121,6 +149,9 @@ body#body-2 {
     height: auto;
 }
 
+
 .submit-div input {
     height: 40px;
+    cursor: pointer;
 }
+

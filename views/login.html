@@ -3,9 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body>
-        <h1>Login</h1>
+    <body id="body-2">
+        <div id="form-container" class="form-container">
+            <form id="form" class="form" action="/login" method="post">
+
+                <h2>LOGIN</h2>
+
+                <div class="username-div">
+                    Username <br>
+                    <input type="text" name="username" id="username-input">
+                </div>
+
+                <div class="email-div">
+                    Email <br>
+                    <input type="email" name="email" id="email-input" required>
+                </div>
+
+                <div class="password-div">
+                    Password <br>
+                    <input type="password" name="password" id="password-input">
+                </div>
+
+                <div class="submit-div">
+                    <input type="submit" name="submit" id="submit-input" value="Sign up">
+                </div>
+
+            </form>
+        </div>
     </body>
 </html>
